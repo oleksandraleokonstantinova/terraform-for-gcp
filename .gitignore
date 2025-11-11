@@ -16,3 +16,4 @@ Thumbs.db
 .idea/
 .vscode/
 !terraform.lock.hcl
+terraform.tfvars
