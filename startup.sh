@@ -9,7 +9,7 @@ retry apt-get install -y nginx
 systemctl enable nginx
 systemctl restart nginx
 
-cat >/var/www/html/index.html <<'HTML'
+cat >/var/www/html/index.html <<HTML
 <html>
   <head><title>GCP MVP</title></head>
   <body style="font-family:Arial; text-align:center">
